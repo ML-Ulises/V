@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles4.css">
+
+  <link rel="icon" href="imagen/v.png" type="image/x-icon">
+  <title>NETCONFIGPRO</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+
+  <header>
+    <h1>Servicio de instalación y configuración de redes domésticas</h1>
+    <br>
+    <nav>
+      <ul>
+        <li><a href="Act.html">Inicio</a></li>
+        <li><a href="acerca.html">Acerca de</a></li>
+        <li><a href="servicios.html">Servicios</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+
+  <main>
+    <h1>CONTRATACION DE SERVICIO</h1>
+    <form action="/enviar-correo" method="post">
+      <label for="nombre">Nombre Completo:</label>
+      <br>
+      <input type="text" id="nombre" name="nombre" required>
+      <br>
+      <label for="email">Correo Electrónico:</label>
+      <br>
+      <input type="email" id="email" name="email" required>
+      <br>
+
+
+      <label for="telefono">Teléfono de contacto:</label>
+      <br>
+      <input type="tel" id="telefono" name="telefono" required>
+      <br>
+
+      <label for="servicio">Servicio que desea contratar:</label>
+      <select id="servicio">
+        <option value="Servicio 1">Instalación de Redes Wi-Fi</option>
+        <option value="Servicio 2">Configuración de Enrutadores y Dispositivos de Red</option>
+        <option value="Servicio 3">Optimización de la Señal Wi-Fi</option>
+        <option value="Servicio 4">Seguridad de Red y Protección contra Amenaza</option>
+        <option value="Servicio 5">Conexión de Dispositivos Inteligentes (IoT)</option>
+        <option value="Servicio 6">Resolución de Problemas de Conectividad</option>
+      </select>
+      <br>
+      
+      <label for="mensaje">Mensaje:</label>
+      <br>
+      <textarea id="mensaje" name="mensaje" required></textarea>
+      <br>
+      <button type="submit" value="Enviar">Enviar</button>
+    </form>
+    <br>
+    <br>
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+      Terminos y condiciones
+    </button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="staticBackdropLabel">Terminos y Condiciones</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            Al utilizar los servicios de instalación y configuración de redes domésticas proporcionados por
+            NETCONFIGPRO, el cliente acepta los siguientes términos y condiciones. NETCONFIGPRO se reserva el derecho de
+            modificar estos términos en cualquier momento, y los cambios serán efectivos inmediatamente después de su
+            publicación en nuestro sitio web.
+          </div>
+          <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Aceptar</button>
+          </div>
+          </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>Derechos de autor © 2023 </p>
+  </footer>
+</body>
+
+</html>

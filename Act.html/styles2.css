@@ -1,0 +1,69 @@
+
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+h3 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 40px;
+}
+nav ul li:hover {
+    background: #4423ec;
+    padding: 10px 0;
+  }
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+nav ul li a:hover {
+    color: #000000;
+    transition: color 0.3s ease; 
+}
+marquee {
+    color: #000000;
+   
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: #fff;
+}
+img {
+    display: block; /* Para que las imágenes se centren horizontalmente */
+    margin: 0 auto; /* Establece los márgenes izquierdo y derecho como 'auto' */
+}
