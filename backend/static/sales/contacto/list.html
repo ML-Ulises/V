@@ -1,0 +1,39 @@
+<div class="w3-card-4">
+          
+    <header class="w3-container w3-green">
+      <h3>Listado de productos</h3>
+    </header>
+        <table>
+            <thead> 
+                <th>ID </th>
+                <th>NOMBRE </th>
+                <th>EMAIL </th>
+                <th>TELEFONO </th>
+                <th>SERVICIO </th>
+                <th>MENSAJE </th>
+                <th colspan="2">ACTION </th>
+            </thead>
+            <tbody>
+                <!--LISTADO-->
+                <tr>
+                    <td>{id}</td>
+                    <td>{nombre}</td>
+                    <td>{email}</td>
+                    <td>{telefono}</td>
+                    <td>{servicio}</td>
+                    <td>{mensaje}</td>
+                    
+
+                    <td><a href="/sales/product/edit/{id}"> <img src="/static/image/edit.png"></a></td> 
+
+                    <td><a href="/sales/product/delete/{id}" 
+                        onclick="return confirm('Está seguro de borrar {contacto}?');"> 
+                        <img src="/static/image/delete.png">
+                        </a>
+                    </td> 
+
+                </tr>
+                <!--LISTADO-->
+            </tbody>
+        </table>
+</div>

@@ -1,0 +1,6 @@
+<?php
+//--- connection for MariaDB
+const CONNECTION_INFO = ["host"=>"172.19.0.2", "port"=>"3306", "db"=>"sales","user"=>"Ulises", "pwd"=>"354947402"];
+//--- connection for Postgres
+//const CONNECTION_INFO = ["host"=>"172.18.0.2", "port"=>"5432", "db"=>"sales","user"=>"studenttics", "pwd"=>"1234567890"];
+?> 

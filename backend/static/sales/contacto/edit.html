@@ -1,0 +1,23 @@
+<div class="w3-card-4">
+          
+    <header class="w3-container w3-green">
+      <h3>Editar productos</h3>
+    </header>
+    <form action="/sales/contacto/save" 
+        method="post"
+        enctype="multipart/form-data" 
+        >
+        <input type="hidden" id="id" name="id" value="{id}">
+        <label for="nombre">contacto: </label>
+        <input type="text" id="nombre" name="nombre" value="{nombre}"> <br>
+        <label for="price">email: </label>
+        <input type="text" id="email" name="email" value="{email}"> <br>
+        <label for="category">telefono: </label>
+        <input type="text" id="telefono" name="telefono" value="{telefono}"> <br>
+        <label for="brand">servicio: </label>
+        <input type="text" id="servicio" name="servicio" value="{servicio}"> <br>
+        <label for="brand">mensaje: </label>
+        <input type="text" id="mensaje" name="mensaje" value="{mensaje}"> <br>
+        <input type="submit" value="Guardar">
+    </form>
+</div>
